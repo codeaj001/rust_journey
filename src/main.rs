@@ -9,5 +9,10 @@ fn main() {
     println!("{0} {1}", "Hello,", "World!");
 
     // Named Argument
-    println!("{zero} {one}", zero = "Hello,", one = "World!")
+    let zero = "Hello,";
+    let one = "World!";
+    println!("{zero} {one}", zero = zero, one = one);
+
+    // Placeholder Traits
+    println!("Number: {}\n Binary: {:b}\n Hexadecimal: {:x}\n Octal: {:o}", 10, 10, 10, 10);
 }

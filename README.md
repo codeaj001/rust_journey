@@ -28,6 +28,7 @@ Here's how the repository is structured:
 📦rust-learning-journey
  ┣ 📂src
  ┃ ┣ 📜main.rs
+ ┣ 📂learning_notes
  ┗ 📜README.md
 ```
 
