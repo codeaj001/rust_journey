@@ -39,5 +39,13 @@ fn main() {
         println!("x is: {}", x);
     }
 
+    //Integer
+    //------- Signed Integer (Can either be + or -)
+    let temperature: i8 = -10;
+    println!("Current temperature is {}°C", temperature);
+
+    // -------- Unsigned Integer (can only be positive)
+    let stock: u16 = 6500;
+    println!("Current stock is {}", stock);
 
 }
